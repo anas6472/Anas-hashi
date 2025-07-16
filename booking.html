@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guest Booking</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Booking Visit</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Visitor Form</legend>
+        <label>Name: <input type="text" required placeholder="Your Name"></label><br>
+        <label>Major:
+          <select required>
+            <option>IT</option>
+            <option>Science</option>
+          </select>
+        </label><br>
+        <label>Gender:
+          <input type="radio" name="gender"> Male
+          <input type="radio" name="gender"> Female
+        </label><br>
+        <label>Hobbies:
+          <input type="checkbox"> Reading
+          <input type="checkbox"> Sports
+        </label><br>
+        <label>Comments:
+          <textarea placeholder="Write something..."></textarea>
+        </label><br>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer><p>Booking Page</p></footer>
+</body>
+</html>
